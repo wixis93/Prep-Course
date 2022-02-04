@@ -1,0 +1,58 @@
+EXplicaciones para un niño de 12 años:
+
+Variable: 
+    Es un espacio en la memoria de la computadora en la cual se guardarà un valor, el cual puede ser definido 
+    por el mismo programador o asigando por el usuario del sistema.
+    nota: en JS no ocupas definir el tipo de variable (string, int, double, char...etc) como en otros lenguajes de programacion
+
+string
+    ES un tipo de dato, el cual esta alojado en una variable......se distingue por ser un bloque de texto el cual esta encerrado entre comillas simples o dobles.
+    Ejemplo: var letras = "esto es un string"
+
+Funciones (argumentos, return)
+    en cualquier lenguaje de programacion las funciones son muy importantes o casi decir indispensables....la estructura de una funciòn puede ser variada, pero la mas basica es la siguiente:
+
+    function NombreFuncion() {
+        //codigo dentro de la funcion
+    }
+
+    como se puede ver en el ejemplo anterior las funciones inician con la palabra reservada "function", eso le indica al lenguaje de programacion que vas a declaras una funcion. Despues de declarar la funcion sigue escribir parentesis(), en ellos pueden incluir o no "argumentos" que en otras palabras es informacion la cual llega a la funcion para despues se realize alguna operacion con estos datos. despues de definir si es que la funcion tendrà paramtros, sigue escribir las llabes "{}", dentro de las cuales estarà todo el codigo que indicara el comportamiento de la funcion.
+    ejemplo de una funcion con parametros
+
+    function tuNombre (nombre){
+        console.log('hola '+ nombre)
+    }
+
+    y para invocar la funciòn escribiriamos lo siguinte:
+    //aqui declaramos el valor de la variable  "miNombre"
+    var miNombre = 'Luis';
+    "le enviamos la variable  a la funcion "tuNombre"
+    tuNombre(miNomnbe);
+
+Declaraciones if
+    el "if" es una sentencia de programaciòn que se utiliza para que se realice cierta acciòn si se cumple una condicion establecida en el if, ejemplo:
+        
+        if(condicion)
+        {//codigo si se cumple la condicion}
+        else
+        {//codigo si no se cumple la condicion}
+
+    en esta sentencia, se puede definir una accion si es que se cumple la condiciòn, asi mismo tambien se puede indicar alguna accion si es que NO se cumple dicha condicion en el apartado "else"
+
+    ejemplo
+
+    if(edad<18)
+    {console.log('eres menor de edad)}
+    else
+    {console.log('eres mayor de edad)}
+
+Valores booleanos (true, false)+
+    este tipo de dato solo puede tener 2 valores los cuales son false (falso) o true (verdadero), y para utilizarlo se le pude asignar alguno de estos valores a una variable, para despues ser utilizadas en algun proceso/desicion en nuestro codigo.
+
+
+
+
+    
+
+
+
