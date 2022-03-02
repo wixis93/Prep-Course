@@ -1,0 +1,30 @@
+Xplicaciones para un niño de 12 años: modulo JS inician
+
+Ciclo For   
+    en programacion un "For" es un tipo de ciclo que se pueden utilizar al momento de estar desarrollando tu aplicacion......
+    pero antes de seguir, un CICLO se puede decir que es un "bloque" de codigo que se va a ehecutar cierto numero de veces ó infinitamente si es que no delcaras bien su limite para que pare de ejecutarse....kekekeke
+    el ciclo for se puede definir su estructura de la manera siguiente;
+
+        for(variable de control, condicion para que siga ejecutandose el ciclo, contador de la variable de control){
+            //bloque de coigo que se ejecutará mientras el ciclo este activo
+        }
+
+    ahora un ejemplo mas realista seria el siguiente:
+        for(let x, x<10, x++){
+            console.log(x);
+        }
+    este ciclo estaria imprimiendo en pantalla el valor de x mientras que "x" sea menor a 10*
+
+Operadores logicos &&, ||, !,
+
+    Antes de empesar a explicar cada uno de los operadores logicos, debemos de explicar que es un operador logico........
+        Operador logico, tambien conocido como operadores booleanos, se utilizan para combinar/comparar 2 valores y devolver como resultado un false o un true.
+
+        Operador Logico  AND "&&":
+            Este operador logico se utiliza para comparar 2 valores Y si los 2 valores cumplen con cierta condicion, devuelve un TRUE, de lo contrario devuelve un FALSE.
+        OPerador Logico OR "||"    
+            Este operador logico se utiliza para comparar 2 valores Y si uno de los 2 valores cumplen con cierta condicion, devuelve un TRUE, de lo contrario devuelve un FALSE.
+        Operados Logico NOT "!"
+            Este operador logico se utiliza para comparar UN valore Y si el valor es CONTRARIO a la condicion que se le asigne, devuelve un TRUE, de lo contrario devuelve un FALSE.
+
+
